@@ -1,0 +1,59 @@
+#form
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Time Table</title>
+  <meta name="description" content="this is my project" />
+</head>
+<body>
+  <form action="index2.html" style="background:rgb(5, 65, 77);
+ color: #fff;">
+    <h1> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbspApplication Form</h1>
+    <label>First Name: &nbsp </label>
+    <input type="text" placeholder="First Name">
+    <label>Last Name: </label> &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" placeholder="Last Name">
+    <br>
+    <br>
+    <label> Date of birth:</label>
+    <input type="date" required> &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp <label> Age: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+    <input type="text" placeholder="Age" required>
+    <br>
+    <br>
+    <label> gender: &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+    <select name="gender">
+      <option value="male" selected>Male</option>
+      <option value="famale">Famale</option>
+    </select> &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp <label> Email: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+    <input type="email" required placeholder="xxxx@xx.com">
+    <br>
+    <br>
+    <br>
+    <br>
+    <label> positons available:</label>
+    <input type="radio" id="one" name="Junior" value="junior">
+    <label for="one"> Junior Developer</label>
+    <input type="radio" id="two" name="Mid-Level developer" value="mid">
+    <label for="two"> Mid-Level developer</label>
+    <input type="radio" id="three" name="senior developer" value="senior">
+    <label for="three"> Senior Developer</label>
+    <br>
+    <br>
+    <label> Programing language:</label>
+    <input type="checkbox">
+    <label for="one"> JAVA</label>
+    <input type="checkbox">
+    <label for="two"> JavaScript</label>
+    <input type="checkbox">
+    <label for="three"> Python</label>
+    <br>
+    <br>
+    <br>
+    <span>
+      <input type="submit" value="submit" style="background-color: red;">
+      <input type="reset" value="reset" style="background-color: red;">
+    </span>
+    <br>
+    <br>
+  </form>
+</body>
+</html>
